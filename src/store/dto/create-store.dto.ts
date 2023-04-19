@@ -13,6 +13,10 @@ export class CreateStoreDto {
   @IsNotEmpty()
   numberPhone: number;
 
+  @IsNumber()
+  @IsNotEmpty()
+  location: string;
+
   @IsString()
   @Length(25)
   description: string;

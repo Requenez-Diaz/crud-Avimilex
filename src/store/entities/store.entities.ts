@@ -15,5 +15,8 @@ export class Store {
   numberPhone: number;
 
   @Column({ type: 'text' })
+  location: string;
+
+  @Column({ type: 'text' })
   description: string;
 }

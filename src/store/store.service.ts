@@ -38,6 +38,6 @@ export class StoreService {
   async remove(id: string) {
     const store = await this.findOne(id);
     await this.storeRepository.remove(store);
-    return 'Food is removed successfully';
+    return 'shoose is removed successfully';
   }
 }
